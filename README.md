@@ -5,7 +5,7 @@ At CineStream, we ingest a huge volume of long-form user reviews for newly relea
 Fine-tune a pretrained transformer for binary sentiment classification on a small dataset and report performance. We recommend using a BERT model but you can use any model you like.
 
 ## Dataset
-Using the following imdb dataset. 
+Using the following imdb dataset. [https://huggingface.co/datasets/stanfordnlp/imdb/viewer/plain_text/train](https://huggingface.co/datasets/stanfordnlp/imdb)
 
 ```python
 from datasets import load_dataset
