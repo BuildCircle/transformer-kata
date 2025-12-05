@@ -1,8 +1,8 @@
-# Transformer Fine-Tuning Exercise
+# Transformer Training Exercise
 At CineStream, we ingest a huge volume of long-form user reviews for newly released films and series, far more than teams can read manually. We need a sentiment model that classifies reviews as positive or negative to power real-time dashboards, flag early signs of a release going off track, and surface strong positive reactions for marketing. We use the IMDB review dataset as a close public proxy to build and validate the fine-tuning pipeline before moving to our internal reviews.
 
 ## Objective
-Fine-tune a pretrained transformer for binary sentiment classification on a small dataset and report performance. We recommend using a BERT model but you can use any model you like.
+Train a transformer model for binary sentiment classification on a small dataset and report performance. We recommend using a BERT model but you can use any model you like.
 
 ## Dataset
 Using the following imdb dataset. [https://huggingface.co/datasets/stanfordnlp/imdb/viewer/plain_text/train](https://huggingface.co/datasets/stanfordnlp/imdb)
