@@ -1,5 +1,5 @@
 # Transformer Training Exercise
-At CineStream, we ingest a huge volume of long-form user reviews for newly released films and series, far more than teams can read manually. We need a sentiment model that classifies reviews as positive or negative to power real-time dashboards, flag early signs of a release going off track, and surface strong positive reactions for marketing. We use the IMDB review dataset as a close public proxy to build and validate the fine-tuning pipeline before moving to our internal reviews.
+At CineStream, we ingest a huge volume of long-form user reviews for newly released films and series, far more than teams can read manually. We need a sentiment model that classifies reviews as positive or negative to power real-time dashboards, flag early signs of a release going off track, and surface strong positive reactions for marketing. We use the IMDB review dataset as a close public proxy to build and validate the training pipeline before moving to our internal reviews.
 
 ## Objective
 Train a transformer model for binary sentiment classification on a small dataset and report performance. We recommend using a BERT model but you can use any model you like.
@@ -24,7 +24,7 @@ Be sure to examine its suitability for the task on huggingface first, you can do
 * Keep max length reasonable for speed (e.g., 128–256).
 * Ensure labels are correctly attached.
 
-### 3) Fine-tune the model
+### 3) Training the model
 We recommend using a trainer for this exercise but a custom loop is also fine. Be sure to choose sensible hyperparameters. The training should run on the CPU and only take a few minutes so we have enough time to iterate.
 
 ### 4) Run sample predictions
